@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Resultados de la búsqueda</h1>
+    <h2>{{ pelicula.titulo }}</h2>
+    <p><strong>Año:</strong> {{ pelicula.anio }}</p>
+    <p><strong>Duración:</strong> {{ pelicula.duracion }}</p>
+    <p><strong>Director:</strong> {{ pelicula.director }}</p>
+    <p><strong>Sinopsis:</strong> {{ pelicula.sinopsis }}</p>
+    <a href="{{ url_for('peliculas.index') }}">Volver a la búsqueda</a>
+</body>
+</html>
