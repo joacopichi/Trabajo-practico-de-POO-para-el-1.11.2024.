@@ -3,16 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultados</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Resultados de Búsqueda</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='resultados.css') }}">
 </head>
 <body>
-    <h1>Resultados de la búsqueda</h1>
-    <h2>{{ pelicula.titulo }}</h2>
-    <p><strong>Año:</strong> {{ pelicula.anio }}</p>
-    <p><strong>Duración:</strong> {{ pelicula.duracion }}</p>
-    <p><strong>Director:</strong> {{ pelicula.director }}</p>
-    <p><strong>Sinopsis:</strong> {{ pelicula.sinopsis }}</p>
-    <a href="{{ url_for('peliculas.index') }}">Volver a la búsqueda</a>
+    <h1>Resultados de Búsqueda</h1>
+
+    {% if pelicula %}
+        <h2>Título: {{ pelicula['Title'] }}</h2>
+        <p>Año: {{ pelicula['Year'] }}</p>
+        <p>Duración: {{ pelicula['Runtime'] }}</p>
+        <p>Director: {{ pelicula['Director'] }}</p>
+        <p>Sinopsis: {{ pelicula['Plot'] }}</p>
+
+    {% elif peliculas %}
+        <h2>Películas de Muestra</h2>
+        <ul>
+            {% for pelicula in peliculas %}
+                <li>
+                    <strong>Título:</strong> {{ pelicula['Title'] }}<br>
+                    <strong>Año:</strong> {{ pelicula['Year'] }}<br>
+                    <strong>Duración:</strong> {{ pelicula['Runtime'] }}<br>
+                    <strong>Director:</strong> {{ pelicula['Director'] }}<br>
+                    <strong>Sinopsis:</strong> {{ pelicula['Plot'] }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No se encontraron resultados.</p>
+    {% endif %}
+
+    <a href="{{ url_for('peliculas.index') }}">Volver a buscar</a>
 </body>
 </html>

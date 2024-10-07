@@ -1,0 +1,254 @@
+[
+    {
+        "Title": "Inception",
+        "Year": "2010",
+        "Runtime": "148 min",
+        "Director": "Christopher Nolan",
+        "Plot": "Un ladrón que roba secretos corporativos a través del uso de la tecnología de los sueños se le ofrece una oportunidad de redención al implantar una idea en la mente de un CEO, un acto conocido como 'inception'. En un viaje a través de diferentes niveles de sueño, debe enfrentar sus propios demonios mientras intenta completar su misión."
+    },
+    {
+        "Title": "Titanic",
+        "Year": "1997",
+        "Runtime": "195 min",
+        "Director": "James Cameron",
+        "Plot": "Una aristócrata de 17 años, Rose, se enamora de un artista sin recursos, Jack, a bordo del famoso barco Titanic. A medida que su romance florece, el Titanic choca con un iceberg, llevando a una lucha por la supervivencia mientras se enfrentan a las limitaciones sociales y a la tragedia inminente que se avecina."
+    },
+    {
+        "Title": "Avatar",
+        "Year": "2009",
+        "Runtime": "162 min",
+        "Director": "James Cameron",
+        "Plot": "En un futuro no muy lejano, un Marine parapléjico es enviado a la luna Pandora para participar en un programa de avatar que le permite interactuar con los nativos de la luna. Mientras se involucra en la cultura de los Na'vi, se enfrenta a un dilema moral entre seguir órdenes o proteger a los seres que ha llegado a amar."
+    },
+    {
+        "Title": "The Matrix",
+        "Year": "1999",
+        "Runtime": "136 min",
+        "Director": "The Wachowskis",
+        "Plot": "Un hacker llamado Neo descubre que el mundo en el que vive es una simulación creada por máquinas que han tomado el control del mundo. Al unirse a un grupo de rebeldes que luchan contra esta realidad, se embarca en un viaje de autodescubrimiento y lucha por liberar a la humanidad de la Matrix."
+    },
+    {
+        "Title": "Interstellar",
+        "Year": "2014",
+        "Runtime": "169 min",
+        "Director": "Christopher Nolan",
+        "Plot": "En un futuro cercano, la Tierra se enfrenta a una catástrofe ambiental que amenaza la supervivencia de la humanidad. Un grupo de astronautas se embarca en un viaje a través de un agujero de gusano en busca de un nuevo hogar para la humanidad, enfrentándose a desafíos extremos y explorando la naturaleza del amor y el sacrificio."
+    },
+    {
+        "Title": "La La Land",
+        "Year": "2016",
+        "Runtime": "128 min",
+        "Director": "Damien Chazelle",
+        "Plot": "Un músico de jazz y una aspirante a actriz luchan por alcanzar sus sueños en Los Ángeles, mientras enfrentan los altibajos de su relación en un mundo que parece estar en su contra."
+    },
+    {
+        "Title": "Parasite",
+        "Year": "2019",
+        "Runtime": "132 min",
+        "Director": "Bong Joon-ho",
+        "Plot": "Una familia pobre se infiltra en la vida de una familia rica, llevando a un inesperado y oscuro giro de eventos que revela las desigualdades sociales y la lucha por la supervivencia."
+    },
+    {
+        "Title": "Joker",
+        "Year": "2019",
+        "Runtime": "122 min",
+        "Director": "Todd Phillips",
+        "Plot": "Un comediante fracasado se convierte en el infame villano Joker, mientras enfrenta el rechazo y la violencia en Gotham City, explorando su deterioro mental y su transformación en un símbolo de caos."
+    },
+    {
+        "Title": "Avengers: Endgame",
+        "Year": "2019",
+        "Runtime": "181 min",
+        "Director": "Anthony Russo, Joe Russo",
+        "Plot": "Los Vengadores deben unirse para deshacer los actos de Thanos y restaurar el orden en el universo, enfrentando desafíos personales y luchas épicas en su camino hacia la redención."
+    },
+    {
+        "Title": "El Laberinto del Fauno",
+        "Year": "2006",
+        "Runtime": "118 min",
+        "Director": "Guillermo del Toro",
+        "Plot": "Una joven en la España de la posguerra se encuentra en un mundo mágico y aterrador, donde debe cumplir tres pruebas para demostrar que es la reencarnación de una princesa perdida."
+    },
+    {
+        "Title": "Los Otros",
+        "Year": "2001",
+        "Runtime": "101 min",
+        "Director": "Alejandro Amenábar",
+        "Plot": "Una madre sobreprotectora vive en una mansión con sus hijos enfermos y comienza a experimentar eventos sobrenaturales que revelan un oscuro secreto sobre su hogar."
+    },
+    {
+        "Title": "Mar Adentro",
+        "Year": "2004",
+        "Runtime": "125 min",
+        "Director": "Alejandro Amenábar",
+        "Plot": "La historia real de Ramón Sampedro, un hombre que luchó por su derecho a morir dignamente después de quedar tetrapléjico, tocando temas profundos sobre la vida y la muerte."
+    },
+    {
+        "Title": "Todo sobre mi madre",
+        "Year": "1999",
+        "Runtime": "101 min",
+        "Director": "Pedro Almodóvar",
+        "Plot": "Después de la muerte de su hijo, una madre busca a su padre y se encuentra en un mundo lleno de personajes coloridos y situaciones inesperadas, explorando la maternidad y la identidad."
+    },
+    {
+        "Title": "Carmen y Lola",
+        "Year": "2018",
+        "Runtime": "105 min",
+        "Director": "Arantxa Echevarría",
+        "Plot": "La historia de amor entre dos adolescentes gitanas que desafían las expectativas culturales y familiares, luchando por su derecho a amar y ser libres en un mundo que no lo permite."
+    },
+    {
+        "Title": "Ocho apellidos vascos",
+        "Year": "2014",
+        "Runtime": "98 min",
+        "Director": "Emilio Martínez Lázaro",
+        "Plot": "Una comedia romántica que sigue la historia de un joven que se enamora de una chica vasca, desatando una serie de malentendidos culturales y cómicos entre sus respectivas familias."
+    },
+    {
+        "Title": "Volver",
+        "Year": "2006",
+        "Runtime": "121 min",
+        "Director": "Pedro Almodóvar",
+        "Plot": "Una mujer regresa a su pueblo natal para enfrentar su pasado y descubrir secretos familiares, explorando la fortaleza de las mujeres y la relación entre la vida y la muerte."
+    },
+    {
+        "Title": "La isla mínima",
+        "Year": "2014",
+        "Runtime": "105 min",
+        "Director": "Alberto Rodríguez",
+        "Plot": "Dos detectives investigan la desaparición de dos jóvenes en un pueblo andaluz en los años 80, desenterrando secretos oscuros y tensiones en una sociedad en cambio."
+    },
+    {
+        "Title": "El Rey León",
+        "Year": "1994",
+        "Runtime": "88 min",
+        "Director": "Roger Allers, Rob Minkoff",
+        "Plot": "Un joven león, Simba, escapa de su hogar tras la muerte de su padre, Mufasa. Mientras crece lejos de su hogar, se enfrenta a sus propios demonios y eventualmente regresa para reclamar su lugar como rey."
+    },
+    {
+        "Title": "Frozen: El reino del hielo",
+        "Year": "2013",
+        "Runtime": "102 min",
+        "Director": "Chris Buck, Jennifer Lee",
+        "Plot": "Cuando el reino de Arendelle se sumerge en un invierno eterno, la princesa Anna se embarca en una aventura épica junto a un montañés y un reno para encontrar a su hermana Elsa, cuyas habilidades mágicas han causado el desastre."
+    },
+    {
+        "Title": "La Bella y la Bestia",
+        "Year": "1991",
+        "Runtime": "84 min",
+        "Director": "Gary Trousdale, Kirk Wise",
+        "Plot": "Una joven llamada Bella se ofrece como prisionera en el castillo de una Bestia, un príncipe maldecido. A medida que se desarrolla su relación, Bella descubre que hay más en la Bestia de lo que parece."
+    },
+    {
+        "Title": "Aladino",
+        "Year": "1992",
+        "Runtime": "90 min",
+        "Director": "Ron Clements, John Musker",
+        "Plot": "Un joven llamado Aladino encuentra una lámpara mágica que contiene a un genio. Con la ayuda del genio, Aladino intenta conquistar a la princesa Jasmine y derrotar al malvado Jafar."
+    },
+    {
+        "Title": "Moana",
+        "Year": "2016",
+        "Runtime": "107 min",
+        "Director": "Ron Clements, John Musker",
+        "Plot": "Una joven polinesia llamada Moana se embarca en una misión para salvar a su isla y encontrar su verdadera identidad, acompañada por el semidiós Maui en un viaje a través del océano."
+    },
+    {
+        "Title": "Cenicienta",
+        "Year": "1950",
+        "Runtime": "74 min",
+        "Director": "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
+        "Plot": "Cenicienta, una joven maltratada por su madrastra y hermanastras, recibe la ayuda de su hada madrina para asistir al baile real, donde encuentra el amor y cambia su destino."
+    },
+    {
+        "Title": "Buscando a Nemo",
+        "Year": "2003",
+        "Runtime": "100 min",
+        "Director": "Andrew Stanton, Lee Unkrich",
+        "Plot": "Marlin, un pez payaso, emprende una peligrosa aventura por el océano para rescatar a su hijo Nemo, quien ha sido capturado por un buceador. A lo largo del camino, hace nuevos amigos."
+    },
+    {
+        "Title": "Enredados",
+        "Year": "2010",
+        "Runtime": "100 min",
+        "Director": "Nathan Greno, Byron Howard",
+        "Plot": "Rapunzel, una princesa con un largo cabello mágico, escapa de su torre con la ayuda de un ladrón llamado Flynn Rider. Juntos viven una aventura mientras descubren su verdadero destino."
+    },
+    {
+        "Title": "La Sirenita",
+        "Year": "1989",
+        "Runtime": "83 min",
+        "Director": "Ron Clements, John Musker",
+        "Plot": "Ariel, una joven sirena, sueña con ser humana. Al hacer un trato con la malvada bruja del mar, Ursula, Ariel se embarca en una aventura para encontrar el amor y salvar su hogar."
+    },
+    {
+        "Title": "Zootopia",
+        "Year": "2016",
+        "Runtime": "108 min",
+        "Director": "Byron Howard, Rich Moore",
+        "Plot": "En una ciudad habitada por animales, una conejita policía y un astuto zorro se unen para resolver un misterio que involucra a varios animales desaparecidos, descubriendo prejuicios y conspiraciones."
+    },
+    {
+        "Title": "Mulan",
+        "Year": "1998",
+        "Runtime": "88 min",
+        "Director": "Tony Bancroft, Barry Cook",
+        "Plot": "Una joven llamada Mulan se disfraza de hombre para unirse al ejército en lugar de su padre. A medida que lucha por su país, descubre su verdadero valor y el significado del honor."
+    },
+    {
+        "Title": "Los Increíbles",
+        "Year": "2004",
+        "Runtime": "115 min",
+        "Director": "Brad Bird",
+        "Plot": "Una familia de superhéroes vive en la clandestinidad, pero deben volver a la acción cuando un villano amenaza al mundo. Juntos, aprenden sobre la importancia de la familia y la colaboración."
+    },
+    {
+        "Title": "Intensamente",
+        "Year": "2015",
+        "Runtime": "95 min",
+        "Director": "Pete Docter, Ronnie del Carmen",
+        "Plot": "La vida de una niña se ve alterada cuando se mudan a una nueva ciudad. Las emociones de Riley, Alegría, Tristeza, Miedo, Desagrado y Furor deben trabajar juntas para ayudarla a adaptarse."
+    },
+    {
+        "Title": "Pocahontas",
+        "Year": "1995",
+        "Runtime": "81 min",
+        "Director": "Mike Gabriel, Eric Goldberg",
+        "Plot": "Pocahontas, una nativa americana, se encuentra con el colono John Smith y deben navegar sus diferencias culturales mientras luchan por la paz entre sus pueblos."
+    },
+    {
+        "Title": "Ratatouille",
+        "Year": "2007",
+        "Runtime": "111 min",
+        "Director": "Brad Bird, Jan Pinkava",
+        "Plot": "Remy, una rata con un talento excepcional para la cocina, forma un improbable equipo con un joven chef para crear platos deliciosos en un famoso restaurante de París."
+    },
+    {
+        "Title": "Rompe Ralph",
+        "Year": "2012",
+        "Runtime": "101 min",
+        "Director": "Rich Moore",
+        "Plot": "Ralph, un villano de videojuego, busca ser un héroe y demostrar su valía. En su aventura, se da cuenta de que ser un 'malo' no significa que no pueda ser un buen amigo."
+    },
+    {
+        "Title": "El Libro de la Selva",
+        "Year": "1967",
+        "Runtime": "78 min",
+        "Director": "Wolfgang Reitherman",
+        "Plot": "Mowgli, un niño criado por lobos en la selva, debe enfrentar al tigre Shere Khan y encontrar su lugar en el mundo, aprendiendo lecciones sobre la amistad y la supervivencia."
+    },
+    {
+        "Title": "Toy Story",
+        "Year": "1995",
+        "Runtime": "81 min",
+        "Director": "John Lasseter",
+        "Plot": "Los juguetes de Andy cobran vida cuando él no está cerca. Woody, un vaquero, y Buzz Lightyear, un astronauta, deben superar sus diferencias para regresar a su dueño."
+    },
+    {
+        "Title": "Cars",
+        "Year": "2006",
+        "Runtime": "117 min",
+        "Director": "John Lasseter, Joe Ranft",
+        "Plot": "Un auto de carreras llamado Lightning McQueen se pierde en un pueblo pequeño y aprende sobre la amistad, el trabajo en equipo y el verdadero significado de la victoria."
+    }
+]
