@@ -1,10 +1,8 @@
 import requests
-from models.pelicula import Pelicula
-from config import Config
 
 class ServicioPeliculas:
     def __init__(self):
-        self.api_key = Config.OMDB_API_KEY
+        self.api_key = 'trilogy'  # Clave pública gratuita para OMDb
         self.base_url = "http://www.omdbapi.com/"
 
     def buscar_pelicula(self, titulo):
@@ -12,22 +10,36 @@ class ServicioPeliculas:
             't': titulo,
             'apikey': self.api_key
         }
+        
         response = requests.get(self.base_url, params=params)
 
         if response.status_code != 200:
-            raise ValueError("Error al conectar con el servicio de películas.")
+            print("Error al conectar con el servicio de películas.")
+            return None
 
         data = response.json()
 
         if data.get('Response') == 'False':
-            raise ValueError(f"No se encontró la película: {titulo}")
+            print(f"No se encontró la película: {titulo}")
+            return None
 
-        pelicula = Pelicula(
-            titulo=data.get('Title'),
-            anio=data.get('Year'),
-            duracion=data.get('Runtime'),
-            director=data.get('Director'),
-            sinopsis=data.get('Plot')
-        )
+        return data  # Retorna los datos de la película
 
-        return pelicula
+    def mostrar_datos(self, titulos):
+        for titulo in titulos:
+            print(f"Buscando: {titulo}")
+            pelicula = self.buscar_pelicula(titulo)
+            if pelicula:
+                print(f"Título: {pelicula['Title']}")
+                print(f"Año: {pelicula['Year']}")
+                print(f"Duración: {pelicula['Runtime']}")
+                print(f"Director: {pelicula['Director']}")
+                print(f"Sinopsis: {pelicula['Plot']}")
+                print(f"Clasificación: {pelicula['Rated']}")
+                print("-------------")
+
+# Ejemplo de uso
+if __name__ == '__main__':
+    servicio = ServicioPeliculas()
+    titulos_a_buscar = ["Inception", "Titanic", "Avatar", "The Matrix", "Interstellar"]
+    servicio.mostrar_datos(titulos_a_buscar)
