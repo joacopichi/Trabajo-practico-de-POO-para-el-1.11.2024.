@@ -20,4 +20,4 @@
 2. Intalar un entorno virtual (python -m venv venv )
 3. Activar dicho entorno (venv\Scripts\activate)
 4. Instala los requirements.txt (pip install -r requirements.txt)
-5. Accede a la aplicacion abriendo el navegador e ingresando (http://127.0.0.1:5000/login)
+5. Accede a la aplicacion abriendo el navegador e ingresando (http://127.0.0.1:5000)
