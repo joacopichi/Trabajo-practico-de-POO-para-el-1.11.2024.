@@ -1,12 +1,5 @@
 # Trabajo practico de POO para el 1.11.2024
 
-## Requisitos Previos para la insatalcion
-
-1. Clonar el repositorio en github.
-2. Intalar un entorno virtual (python -m venv venv )
-3. Activar dicho entorno (venv\Scripts\activate)
-4. Instala los requirements.txt (pip install -r requirements.txt)
-
 ## 🎬 Aplicación Web de Búsqueda de Películas y Series 🎬
 
 ¡Bienvenido a la aplicación de búsqueda de películas y series! 🎥 Esta aplicación web, construida con **Flask**, te permite buscar información de tus películas y series favoritas, además de gestionar tu cuenta de usuario con opciones de registro, inicio de sesión.
