@@ -2,17 +2,26 @@ import requests
 import json
 
 class ServicioPeliculas:
-    def __init__(self, api_key=None):
-        self.api_key = api_key  # Clave de la API
-        self.base_url = "http://www.omdbapi.com/"
-        self.peliculas_muestra = self.cargar_peliculas_muestra()
+    _instance = None
+
+    def __new__(cls, api_key=None):
+        if not cls._instance:
+            cls._instance = super(ServicioPeliculas, cls).__new__(cls)
+            cls._instance.api_key = api_key
+            cls._instance.base_url = "http://www.omdbapi.com/"
+            cls._instance.peliculas_muestra = cls._instance.cargar_peliculas_muestra()
+        return cls._instance
 
     def cargar_peliculas_muestra(self):
-        with open('static/peliculas_muestra.json', 'r', encoding='utf-8') as file:
-            return json.load(file)
+        try:
+            with open('static/peliculas_muestra.json', encoding='utf-8') as file:
+                return json.load(file)
+        except FileNotFoundError:
+            print("El archivo 'peliculas_muestra.json' no se encontró.")
+            return []
 
     def buscar_pelicula(self, titulo):
-        if self.api_key:  # Si se proporciona la clave de API
+        if self.api_key:
             params = {'t': titulo, 'apikey': self.api_key}
             response = requests.get(self.base_url, params=params)
 
@@ -22,7 +31,7 @@ class ServicioPeliculas:
             if data.get('Response') == 'False':
                 return None
             return data
-        else:  # Si no hay clave API, devolver una película de muestra
+        else:
             for pelicula in self.peliculas_muestra:
                 if pelicula['Title'].lower() == titulo.lower():
                     return pelicula

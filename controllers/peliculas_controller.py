@@ -2,6 +2,7 @@ from flask import Blueprint, render_template, request, redirect, url_for, flash,
 from services.servicio_peliculas import ServicioPeliculas
 
 peliculas_bp = Blueprint('peliculas', __name__)
+servicio_peliculas = ServicioPeliculas() 
 
 @peliculas_bp.route('/')
 def login():
@@ -18,23 +19,15 @@ def buscar():
     consulta = request.form.get('consulta')
 
     if not consulta:
-        flash('Por favor, ingresa un término de búsqueda', 'danger')
+        flash('Por favor, ingresa un término de búsqueda')
         return redirect(url_for('peliculas.index'))
 
-    servicio_peliculas = ServicioPeliculas()
+    pelicula = servicio_peliculas.buscar_pelicula(consulta)
 
-    try:
-        # Aquí intentamos buscar la película
-        pelicula = servicio_peliculas.buscar_pelicula(consulta)
+    if not pelicula:
+        titulos_muestra = ["Inception", "Titanic", "Avatar", "The Matrix", "Interstellar"]
+        peliculas_muestra = [servicio_peliculas.buscar_pelicula(titulo) for titulo in titulos_muestra]
+        flash('No se encontraron resultados para tu búsqueda. Mostrando películas de muestra.')
+        return render_template('resultados.html', peliculas=peliculas_muestra)
 
-        # En caso de no encontrar la película, puedes buscar algunas películas de muestra
-        if not pelicula:
-            # Si la búsqueda falla, podrías retornar algunas películas de muestra
-            titulos_muestra = ["Inception", "Titanic", "Avatar", "The Matrix", "Interstellar"]
-            peliculas_muestra = [servicio_peliculas.buscar_pelicula(titulo) for titulo in titulos_muestra]
-            flash('No se encontraron resultados para tu búsqueda. Mostrando películas de muestra.', 'info')
-            return render_template('resultados.html', peliculas=peliculas_muestra)
-
-        return render_template('resultados.html', pelicula=pelicula)
-    except Exception as e:
-        return render_template('error.html', mensaje_error=str(e))
+    return render_template('resultados.html', pelicula=pelicula)
